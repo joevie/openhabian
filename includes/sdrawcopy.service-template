@@ -1,5 +1,6 @@
 [Unit]
 Description=Run SD raw dump semiannually
+After=network.target network-online.target
 Wants=sdrawcopy.timer
 
 [Service]
