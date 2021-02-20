@@ -1,6 +1,6 @@
 [Unit]
 Description=Run SD raw dump semiannually
-Requires=sdrawcopy.service
+#Requires=sdrawcopy.service
 
 [Timer]
 Unit=sdrawcopy.service
